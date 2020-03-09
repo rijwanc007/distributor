@@ -1,0 +1,204 @@
+body{
+    margin:0px !important;
+    padding: 0px !important;
+    outline: none !important;
+    /*overflow-x: hidden;*/
+}
+.form_width{
+    width:40%;
+}
+.confirm_password_margin{
+    margin-top: 2.3%;
+}
+.success_text{
+    text-align: center;
+    color: green;
+    font-family: cursive;
+}
+.card_heading_design{
+    font-size: 30px;
+    background: ghostwhite;
+    color: rgb(65, 170, 225);
+    width: 100%;
+    margin-left: 2.2%;
+    border-radius: 6px;
+}
+.user_image_design{
+    height: 120px;
+    width: 120px;
+    border: 7px solid #ECF0F5;
+    border-radius: 50%;
+    margin-left: 28%;
+    margin-top: -19%;
+}
+.available_text{
+    color: red;
+    font-size: 20px;
+    font-family: cursive;
+}
+.search_margin{
+    margin-left: 6%;
+}
+.single_profile_image{
+    height: 200px;
+    width:200px;
+    margin-left: 33%;
+    margin-top: -6%;
+}
+.single_profile_background_color{
+    background-color: white;
+}
+.single_profile_margin{
+    margin: 14px 0px;
+}
+.single_profile_text_highlight{
+    font-size: 25px;
+    color: black;
+}
+.single_profile_text_text{
+    color: #AAA;
+    font-size: 20px;
+    font-family: cursive;
+}
+.table_left_margin{
+    margin-left: 20%;
+}
+.preview_image{
+    height: 50px;
+    margin-bottom: 1%;
+}
+.select_product_category_design,.user_role_option{
+    width: 100%;
+    height: 37px;
+}
+.product_edit_button{
+    margin-bottom: 3px;
+}
+.select_product_category_design_two{
+    width: 70%;
+    height: 37px;
+}
+.select_button_design{
+    width: 25%;
+    height: 37px;
+    background-color: #3c8dbc;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+.stock_create_button{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #3c8dbc;
+}
+.row_remove_button{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: auto;
+    cursor: pointer;
+    text-align: center;
+}
+.table_stock_in>thead>tr>th{
+    text-align: center;
+}
+.table_stock_in>tbody>tr>td>input{
+    width: 100px;
+}
+.display_offer,.display_offer_one,.display_offer_two,.display_offer_three,.display_offer_four{
+    display: none;
+}
+#store_date_display{
+    display : none
+}
+#stock_store_button{
+    display : none
+}
+.invoice_button{
+    margin-top: 3px;
+}
+.invoice_table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.challan_hr{
+    border: 1px solid;
+    width: 151px;
+    margin-top: -8px;
+}
+/*user card design start here*/
+.card_box {
+    background: #FFF;
+    border-radius: 2px;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 33px;
+    margin-left: 24px;
+    margin-top: 33px ;
+    position: relative;
+    width: 300px;
+    padding: 11px;
+}
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-1 > p{
+    color:slategrey;
+}
+.approve_mail{
+    margin-right: 1px;
+}
+.button_center{
+    margin-left: 9%;
+}
+.card_box_two {
+    background: #FFF;
+    border-radius: 2px;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 33px;
+    margin-left: 24px;
+    margin-top: 33px ;
+    position: relative;
+    width: auto;
+    padding: 11px;
+}
+.card-2 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card-2:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-2 > p{
+    color:slategrey;
+}
+/*user card design end here*/
+.table-bordered_two {
+    border: 2px solid black !important;
+}
+.table-bordered_two > thead >tr>th{
+    border: 2px solid black !important;
+}.table-bordered_two > tbody >tr>td{
+    border: 2px solid black !important;
+}
+@page { size: auto;  margin: 0mm; }
+.print_button{
+    width: 17%;
+    padding: 11px 0px;
+    text-transform: capitalize;
+    background-color: #337ab7;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 5%
+}
+
